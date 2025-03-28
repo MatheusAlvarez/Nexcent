@@ -186,7 +186,44 @@ h1{
 
 .pixelgrade-content p{
     margin-top: 16px;
-    
+
 }
 
 /* ------------ FIM Pixelgrade ------------ */
+
+
+/* ------------ Helping Local ------------ */
+
+.helping-local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 72px;
+}
+
+.helping-content h2{
+    width: 390px;
+}
+
+.helping-content h2 span{
+    color: var(--color-primary);
+}
+
+.helping-content p{
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.helping-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;    
+}
+
+.helping-itens{
+    display: flex;
+}
+
+/* ------------ FIM Helping Local ------------ */
